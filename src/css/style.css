@@ -12,12 +12,33 @@ body{
                          "footer footer footer footer";
     grid-template-columns: repeat(4, 1fr);
     font-size: 1.6rem;
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
 }
 
 /* HEADER */
 
 .header{
     grid-area: header;
+    background-color: #fff;
+}
+
+.header .header-container{
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 75px;
+}
+
+.header h1{
+    font-size: 3rem;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.header a:hover h1{
+    color: coral;
 }
 
 /* HERO */
